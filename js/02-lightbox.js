@@ -15,7 +15,7 @@ gallery.insertAdjacentHTML("beforeend", imagesHTML.join(""));
 // </a>
 
 //   var lightbox = $('.gallery a').simpleLightbox({
-var lightbox = new SimpleLightbox(".gallery a", {
+const lightbox = new SimpleLightbox(".gallery a", {
   loop: true,
   captionsData: "alt",
   captionDelay: 250,
